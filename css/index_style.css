@@ -1,0 +1,38 @@
+body
+{
+    font-family: "Helvetica";
+    background-color: #24353f;
+}
+input{
+    color: #fff!important;
+}
+::placeholder{
+    color: #bcc2c9!important;
+}
+button:hover{
+    color: #fff !important;
+}
+a:hover{
+    text-decoration: underline !important;
+}
+input:focus{
+    box-shadow: none !important;
+}
+.nav-link{
+    border: #FFC107 1px solid !important;
+    color: #bcc2c9!important;
+}
+.welcome{
+    margin-top: 285px;
+}
+.col-9 , .navbar{
+    box-shadow: 5px 5px 30px 10px rgba(0, 0, 0, 0.4) !important;
+}
+.nav-link:hover , .navbar-brand:hover{
+    text-decoration: none !important;
+    color: #fff !important;
+}
+#loginBtn:hover{
+    text-decoration: none !important;
+    color: #fff;
+}

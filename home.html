@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index_style.css">
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand text-white" href="home.html">SMART LOGIN</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto d-flex justify-content-end ">
+                        <li class="nav-item px-2">
+                            <a onclick="logOut()" class="nav-link btn btn-warning" aria-current="page" href="index.html">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Welcome Card -->
+        <div class="welcome container row text-center mx-auto px-4">
+            <div class="col-9 mx-auto p-5">
+                <h1 id="welcome" class="text-info"></h1>
+            </div>
+        </div>
+            <!-- Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+            <!-- Javascript -->
+    <script src="js/mine.js"></script>
+    </body>
+</html>

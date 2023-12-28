@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index_style.css">
+    </head>
+    <body>
+        <div class="container row text-center mx-auto px-4">
+            <div class="col-9 mx-auto p-5 mt-5">
+                <h1 class="text-info">Smart Login System</h1>
+                <input id="newUserName" class="form-control bg-transparent my-3" placeholder="Enter Your name - At least 3 characters">
+                <input id="newUserEmail" class="form-control bg-transparent my-3" placeholder="Enter Your email - For example : name@mail.com">
+                <input id="newUserPass" class="form-control bg-transparent" type="password" placeholder="Enter password - At least 8 characters">
+                <p id="emptyInput" class=" d-none text-danger mt-4">All inputs are required</p>
+                <p id="exists" class=" d-none text-danger mt-4">email already exists</p>
+                <p id="success" class="d-none text-success mt-4">Success</p>
+                <p id="invalid" class=" d-none text-danger mt-4">Invalid name or email or password</p>
+                <button onclick="addUser()" class="btn btn-outline-info w-100 mt-4" id="signUpBtn">Sign up</button>
+                <p class="text-white my-3">You have an account? <a class="text-decoration-none text-white" href="index.html">Signin</a></p>
+            </div>
+        </div>
+    <script src="js/mine.js"></script>
+    </body>
+</html>
